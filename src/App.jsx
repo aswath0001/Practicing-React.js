@@ -1,11 +1,12 @@
 
 import React from 'react'
-import Weather from './components/Weather.jsx'
+import Greetings from './components/Greetings.jsx'
 
 const App = () => {
   return(
   <div>
-   <Weather/>
+   {/*<UserStatus loggedIn ={false} isAdmin= {true}/>*/}
+   <Greetings timeDay ='morning'/>
   </div>
   );
 };
