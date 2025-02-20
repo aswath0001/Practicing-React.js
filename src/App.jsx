@@ -12,8 +12,11 @@ import Friends from './components/Friends';
 import Movie from './components/Movie';
 import Film from './components/Film';
 import Card from './components/Card';
-import Student from './components/Student';*/}
-import Example from './components/Example'
+import Student from './components/Student';
+import Example from './components/Example';
+import Random from './components/Random';
+import UseState from './components/UseState';*/}
+import Counter from './components/Counter';
 
 const App = () => {
    
@@ -36,9 +39,11 @@ const App = () => {
      <Friends/>
      <Movie/>
      <Film/>
-     <Student/>*/}
+     <Student/>
      <Example/>
-
+     <Random/>
+     <UseState/>*/}
+     <Counter/>
   </section>
   );
 };
