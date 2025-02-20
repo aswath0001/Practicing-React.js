@@ -10,8 +10,11 @@ import Copy from'./components/Copy';
 import Click from'./components/Click';
 import Friends from './components/Friends';
 import Movie from './components/Movie';
-import Film from './components/Film';*/}
-import Student from './components/Student';
+import Film from './components/Film';
+import Card from './components/Card';
+import Student from './components/Student';*/}
+import Example from './components/Example'
+
 const App = () => {
    
   {/*const styles =color:"white",backgroundColor:"orange",padding:"3rem",margin:"4rem"*/}
@@ -32,8 +35,10 @@ const App = () => {
      <Click/>
      <Friends/>
      <Movie/>
-     <Film/>*/}
-     <Student/>
+     <Film/>
+     <Student/>*/}
+     <Example/>
+
   </section>
   );
 };
