@@ -15,8 +15,10 @@ import Card from './components/Card';
 import Student from './components/Student';
 import Example from './components/Example';
 import Random from './components/Random';
-import UseState from './components/UseState';*/}
+import UseState from './components/UseState';
 import Counter from './components/Counter';
+import Counter1 from './components/Counter1';*/}
+import ToDoList from './components/ToDoList';
 
 const App = () => {
    
@@ -42,8 +44,10 @@ const App = () => {
      <Student/>
      <Example/>
      <Random/>
-     <UseState/>*/}
+     <UseState/>
      <Counter/>
+     <Counter1/>*/}
+     <ToDoList/>
   </section>
   );
 };
