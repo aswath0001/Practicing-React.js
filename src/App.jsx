@@ -17,8 +17,9 @@ import Example from './components/Example';
 import Random from './components/Random';
 import UseState from './components/UseState';
 import Counter from './components/Counter';
-import Counter1 from './components/Counter1';*/}
-import ToDoList from './components/ToDoList';
+import Counter1 from './components/Counter1';
+import ToDoList from './components/ToDoList';*/}
+import Profile from './components/Profile';
 
 const App = () => {
    
@@ -46,8 +47,9 @@ const App = () => {
      <Random/>
      <UseState/>
      <Counter/>
-     <Counter1/>*/}
-     <ToDoList/>
+     <Counter1/>
+     <ToDoList/>*/}
+     <Profile/>
   </section>
   );
 };
