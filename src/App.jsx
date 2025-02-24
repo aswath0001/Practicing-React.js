@@ -18,9 +18,9 @@ import Random from './components/Random';
 import UseState from './components/UseState';
 import Counter from './components/Counter';
 import Counter1 from './components/Counter1';
-import ToDoList from './components/ToDoList';*/}
-import Profile from './components/Profile';
-
+import ToDoList from './components/ToDoList';
+import Profile from './components/Profile';*/}
+import ShoppingList from './components/ShoppingList';
 const App = () => {
    
   {/*const styles =color:"white",backgroundColor:"orange",padding:"3rem",margin:"4rem"*/}
@@ -48,8 +48,9 @@ const App = () => {
      <UseState/>
      <Counter/>
      <Counter1/>
-     <ToDoList/>*/}
-     <Profile/>
+     <ToDoList/>
+     <Profile/>*/}
+     <ShoppingList/>
   </section>
   );
 };
