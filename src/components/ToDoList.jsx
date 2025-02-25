@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import UseState from './UseState'
+import React, { useState } from 'react';
+import UseState from './UseState';
 
 const ToDoList = () => {
     const [toDo,setToDo] = useState ([])
@@ -13,7 +13,7 @@ if (inputValue.trim()) {
     };
     const HandleChange = e => {
     setInputValue(e.target.value)
-    }
+    };
   return (
     <div>
         <h1>ToDo List</h1>
@@ -24,10 +24,10 @@ if (inputValue.trim()) {
         <ul>
             {toDo.map((toDo,index) =>(
                 <li key={index}>{toDo}</li>
-            ))}
+            ))};
         </ul>
     </div>
   )
-}
+};
 
-export default ToDoList
+export default ToDoList;
