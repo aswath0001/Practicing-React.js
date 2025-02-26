@@ -23,8 +23,9 @@ import Profile from './components/Profile';
 import ShoppingList from './components/ShoppingList';
 import Us from './components/Us';
 import CopyInput from './components/CopyInput';
-import Switcher from './components/Switcher';*/}
-import UseEffect  from './components/UseEffect';
+import Switcher from './components/Switcher';
+import UseEffect  from './components/UseEffect';*/}
+import DataUsingUseEffect from './components/DataUsingUseEffect';
 
 const App = () => {
    
@@ -58,8 +59,9 @@ const App = () => {
      <ShoppingList/>
      <Us/>
      <CopyInput/>
-     <Switcher/>*/}
-     <UseEffect/>
+     <Switcher/>
+     <UseEffect/>*/}
+     <DataUsingUseEffect/>
      
   </section>
   );
