@@ -21,8 +21,9 @@ import Counter1 from './components/Counter1';
 import ToDoList from './components/ToDoList';
 import Profile from './components/Profile';
 import ShoppingList from './components/ShoppingList';
-import Us from './components/Us';*/}
-import CopyInput from './components/CopyInput';
+import Us from './components/Us';
+import CopyInput from './components/CopyInput';*/}
+import Switcher from './components/Switcher';
 
 const App = () => {
    
@@ -54,8 +55,9 @@ const App = () => {
      <ToDoList/>
      <Profile/>
      <ShoppingList/>
-     <Us/>*/}
-     <CopyInput/>
+     <Us/>
+     <CopyInput/>*/}
+     <Switcher/>
      
   </section>
   );
