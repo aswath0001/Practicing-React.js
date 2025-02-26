@@ -22,8 +22,9 @@ import ToDoList from './components/ToDoList';
 import Profile from './components/Profile';
 import ShoppingList from './components/ShoppingList';
 import Us from './components/Us';
-import CopyInput from './components/CopyInput';*/}
-import Switcher from './components/Switcher';
+import CopyInput from './components/CopyInput';
+import Switcher from './components/Switcher';*/}
+import UseEffect  from './components/UseEffect';
 
 const App = () => {
    
@@ -56,8 +57,9 @@ const App = () => {
      <Profile/>
      <ShoppingList/>
      <Us/>
-     <CopyInput/>*/}
-     <Switcher/>
+     <CopyInput/>
+     <Switcher/>*/}
+     <UseEffect/>
      
   </section>
   );
