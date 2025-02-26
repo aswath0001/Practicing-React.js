@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
-import PopUp from './PopUp'
+import React, { useState } from 'react';
+import PopUp from './PopUp';
+
 
 const CopyInput = () => {
     
@@ -8,7 +9,7 @@ const CopyInput = () => {
     const handleCopy = () => {
         navigator.clipboard.writeText (inputValue).then (() => {
             setCopied (true)
-            setTimeout (() => setCopied(false),2000)
+            setTimeout (() => setCopied(false),5000)
         })
     }
     
