@@ -13,7 +13,7 @@ const Switcher = () => {
             <span>light</span>
         ) }
         <br/>
-        <input type = "text" key ={ sw ? "dark":"light"}/>
+        <input type = "text" key ={ switcher ? "dark":"light"}/>
         <button onClick={() => setSwitcher((s) => !s)}>Switch</button>
     </div>
   )
