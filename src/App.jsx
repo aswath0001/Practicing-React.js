@@ -24,8 +24,11 @@ import ShoppingList from './components/ShoppingList';
 import Us from './components/Us';
 import CopyInput from './components/CopyInput';
 import Switcher from './components/Switcher';
-import UseEffect  from './components/UseEffect';*/}
+import UseEffect  from './components/UseEffect';
 import DataUsingUseEffect from './components/DataUsingUseEffect';
+import BasicEffect from './components/useEffect/BasicEffect';
+import UseEffect from './components/UseEffect';*/}
+import CounterEffect from './components/useEffect/CounterEffect';
 
 const App = () => {
    
@@ -60,9 +63,10 @@ const App = () => {
      <Us/>
      <CopyInput/>
      <Switcher/>
-     <UseEffect/>*/}
+     <UseEffect/>
      <DataUsingUseEffect/>
-     
+     <BasicEffect/>*/}
+     <CounterEffect/>
   </section>
   );
 };
