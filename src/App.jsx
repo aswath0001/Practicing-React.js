@@ -29,8 +29,10 @@ import DataUsingUseEffect from './components/DataUsingUseEffect';
 import BasicEffect from './components/useEffect/BasicEffect';
 import UseEffect from './components/UseEffect';
 import CounterEffect from './components/useEffect/CounterEffect';
-import FetchDataEffect from './components/useEffect/FetchDataEffect';*/}
+import FetchDataEffect from './components/useEffect/FetchDataEffect';
 import HelloGSAP from './components/Gsap/HelloGSAP';
+import Animation from './components/Gsap/Animation';*/}
+import GSAPDemo from './components/Gsap/GSAPDemo';
 
 const App = () => {
    
@@ -69,8 +71,10 @@ const App = () => {
      <DataUsingUseEffect/>
      <BasicEffect/>
      <CounterEffect/>
-     <FetchDataEffect/>*/}
+     <FetchDataEffect/>
      <HelloGSAP/>
+     <Animation/>*/}
+     <GSAPDemo/>
   </section>
   );
 };
