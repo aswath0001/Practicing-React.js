@@ -32,12 +32,15 @@ import CounterEffect from './components/useEffect/CounterEffect';
 import FetchDataEffect from './components/useEffect/FetchDataEffect';
 import HelloGSAP from './components/Gsap/HelloGSAP';
 import Animation from './components/Gsap/Animation';
-import GSAPDemo from './components/Gsap/GSAPDemo';*/}
+import GSAPDemo from './components/Gsap/GSAPDemo';
 import GSAPInUseState from './components/Gsap/GSAPInUseState';
+import Component1 from './components/PropTraining/Component1';
+import Component3 from './components/PropTraining/Component3';*/}
 
 const App = () => {
    
   {/*const styles =color:"white",backgroundColor:"orange",padding:"3rem",margin:"4rem"*/}
+  const name ='Aswath';
   return(
   <section>
    {/*<UserStatus loggedIn ={false} isAdmin= {true}/>
@@ -75,8 +78,10 @@ const App = () => {
      <FetchDataEffect/>
      <HelloGSAP/>
      <Animation/>
-     <GSAPDemo/>*/}
+     <GSAPDemo/>
      <GSAPInUseState/>
+     <Component1 name ={name}/>
+     <Component3/>*/}
   </section>
   );
 };

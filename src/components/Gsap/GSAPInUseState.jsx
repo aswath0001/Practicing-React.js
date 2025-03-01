@@ -19,8 +19,8 @@ const GSAPInUseState = () => {
     <div className='app'>
         <h1>{value}</h1>
         <div className='box' ref ={boxRef}></div>
-        <button onClick={() => setValue(value+1)}>increment</button>
-        <button onClick={() => setValue(value-1)}>decrement</button>
+        <button onClick={() => setValue(value+100)}>increment</button>
+        <button onClick={() => setValue(value-100)}>decrement</button>
     </div>
   )
 }
