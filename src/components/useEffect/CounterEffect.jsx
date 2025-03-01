@@ -5,10 +5,15 @@ const CounterEffect = () => {
     const [count , setCount] = useState (1)
 
     useEffect (() => {
-        
+        document.title = `count: ${count}`
     },[count])
   return (
-    <div>h</div>
+    <div>
+      <h1>
+        count:{count}
+      </h1>
+      <button onClick={() => setCount(count+1)}>Increment on click</button>
+    </div>
   )
 };
 
