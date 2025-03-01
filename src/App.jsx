@@ -28,8 +28,9 @@ import UseEffect  from './components/UseEffect';
 import DataUsingUseEffect from './components/DataUsingUseEffect';
 import BasicEffect from './components/useEffect/BasicEffect';
 import UseEffect from './components/UseEffect';
-import CounterEffect from './components/useEffect/CounterEffect';*/}
-import FetchDataEffect from './components/useEffect/FetchDataEffect';
+import CounterEffect from './components/useEffect/CounterEffect';
+import FetchDataEffect from './components/useEffect/FetchDataEffect';*/}
+import HelloGSAP from './components/Gsap/HelloGSAP';
 
 const App = () => {
    
@@ -67,8 +68,9 @@ const App = () => {
      <UseEffect/>
      <DataUsingUseEffect/>
      <BasicEffect/>
-     <CounterEffect/>*/}
-     <FetchDataEffect/>
+     <CounterEffect/>
+     <FetchDataEffect/>*/}
+     <HelloGSAP/>
   </section>
   );
 };
