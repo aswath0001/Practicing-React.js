@@ -31,8 +31,9 @@ import UseEffect from './components/UseEffect';
 import CounterEffect from './components/useEffect/CounterEffect';
 import FetchDataEffect from './components/useEffect/FetchDataEffect';
 import HelloGSAP from './components/Gsap/HelloGSAP';
-import Animation from './components/Gsap/Animation';*/}
-import GSAPDemo from './components/Gsap/GSAPDemo';
+import Animation from './components/Gsap/Animation';
+import GSAPDemo from './components/Gsap/GSAPDemo';*/}
+import GSAPInUseState from './components/Gsap/GSAPInUseState';
 
 const App = () => {
    
@@ -73,8 +74,9 @@ const App = () => {
      <CounterEffect/>
      <FetchDataEffect/>
      <HelloGSAP/>
-     <Animation/>*/}
-     <GSAPDemo/>
+     <Animation/>
+     <GSAPDemo/>*/}
+     <GSAPInUseState/>
   </section>
   );
 };
