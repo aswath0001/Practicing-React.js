@@ -36,6 +36,8 @@ import GSAPDemo from './components/Gsap/GSAPDemo';
 import GSAPInUseState from './components/Gsap/GSAPInUseState';
 import Component1 from './components/PropTraining/Component1';
 import Component3 from './components/PropTraining/Component3';*/}
+import ContextAPI1 from './components/ContextApi/ContextAPI1';
+import ContextAPI2 from './components/ContextApi/ContextAPI2';
 
 const App = () => {
    
@@ -82,6 +84,8 @@ const App = () => {
      <GSAPInUseState/>
      <Component1 name ={name}/>
      <Component3/>*/}
+     <ContextAPI1 />
+     <ContextAPI2 />
   </section>
   );
 };
