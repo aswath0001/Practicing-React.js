@@ -27,8 +27,9 @@ import Switcher from './components/Switcher';
 import UseEffect  from './components/UseEffect';
 import DataUsingUseEffect from './components/DataUsingUseEffect';
 import BasicEffect from './components/useEffect/BasicEffect';
-import UseEffect from './components/UseEffect';*/}
-import CounterEffect from './components/useEffect/CounterEffect';
+import UseEffect from './components/UseEffect';
+import CounterEffect from './components/useEffect/CounterEffect';*/}
+import FetchDataEffect from './components/useEffect/FetchDataEffect';
 
 const App = () => {
    
@@ -65,8 +66,9 @@ const App = () => {
      <Switcher/>
      <UseEffect/>
      <DataUsingUseEffect/>
-     <BasicEffect/>*/}
-     <CounterEffect/>
+     <BasicEffect/>
+     <CounterEffect/>*/}
+     <FetchDataEffect/>
   </section>
   );
 };
