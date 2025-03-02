@@ -41,6 +41,7 @@ import ContextAPI2 from './components/ContextApi/ContextAPI2';
 import Usecontext1 from './components/UseContext/Usecontext1';
 import UseContext2 from './components/UseContext/UseContext2';
 import UserProfile from './components/ContextApi/UserProfile';*/}
+import UseReducer from './components/UseReducer/UseReducer';
 
 const App = () => {
    
@@ -93,6 +94,7 @@ const App = () => {
      <Usecontext1/>
      <UseContext2/>
     <UserProfile/>*/}
+    <UseReducer/>
   </section>
   );
 };
