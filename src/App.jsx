@@ -40,8 +40,9 @@ import ContextAPI1 from './components/ContextApi/ContextAPI1';
 import ContextAPI2 from './components/ContextApi/ContextAPI2';
 import Usecontext1 from './components/UseContext/Usecontext1';
 import UseContext2 from './components/UseContext/UseContext2';
-import UserProfile from './components/ContextApi/UserProfile';*/}
-import UseReducer from './components/UseReducer/UseReducer';
+import UserProfile from './components/ContextApi/UserProfile';
+import UseReducer from './components/UseReducer/UseReducer';*/}
+import CounterReducer from './components/UseReducer/CounterReducer';
 
 const App = () => {
    
@@ -93,8 +94,9 @@ const App = () => {
      <ContextAPI2 />
      <Usecontext1/>
      <UseContext2/>
-    <UserProfile/>*/}
-    <UseReducer/>
+    <UserProfile/>
+    <UseReducer/>*/}
+    <CounterReducer/>
   </section>
   );
 };
