@@ -35,9 +35,13 @@ import Animation from './components/Gsap/Animation';
 import GSAPDemo from './components/Gsap/GSAPDemo';
 import GSAPInUseState from './components/Gsap/GSAPInUseState';
 import Component1 from './components/PropTraining/Component1';
-import Component3 from './components/PropTraining/Component3';*/}
+import Component3 from './components/PropTraining/Component3';
 import ContextAPI1 from './components/ContextApi/ContextAPI1';
 import ContextAPI2 from './components/ContextApi/ContextAPI2';
+import Usecontext1 from './components/UseContext/Usecontext1';
+import UseContext2 from './components/UseContext/UseContext2';*/}
+import UseContext3 from './components/ContextApi/UseContext3';
+import UseContext4 from './components/ContextApi/UseContext4';
 
 const App = () => {
    
@@ -83,9 +87,13 @@ const App = () => {
      <GSAPDemo/>
      <GSAPInUseState/>
      <Component1 name ={name}/>
-     <Component3/>*/}
+     <Component3/>
      <ContextAPI1 />
      <ContextAPI2 />
+     <Usecontext1/>
+     <UseContext2/>*/}
+     <UseContext3/>
+     <UseContext4/>
   </section>
   );
 };
