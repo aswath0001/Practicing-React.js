@@ -39,15 +39,15 @@ import Component3 from './components/PropTraining/Component3';
 import ContextAPI1 from './components/ContextApi/ContextAPI1';
 import ContextAPI2 from './components/ContextApi/ContextAPI2';
 import Usecontext1 from './components/UseContext/Usecontext1';
-import UseContext2 from './components/UseContext/UseContext2';*/}
-import UseContext3 from './components/ContextApi/UseContext3';
-import UseContext4 from './components/ContextApi/UseContext4';
+import UseContext2 from './components/UseContext/UseContext2';
+import UserProfile from './components/ContextApi/UserProfile';*/}
 
 const App = () => {
    
   {/*const styles =color:"white",backgroundColor:"orange",padding:"3rem",margin:"4rem"*/}
   const name ='Aswath';
   return(
+    
   <section>
    {/*<UserStatus loggedIn ={false} isAdmin= {true}/>
    <Greetings timeDay ='morning'/>
@@ -91,9 +91,8 @@ const App = () => {
      <ContextAPI1 />
      <ContextAPI2 />
      <Usecontext1/>
-     <UseContext2/>*/}
-     <UseContext3/>
-     <UseContext4/>
+     <UseContext2/>
+    <UserProfile/>*/}
   </section>
   );
 };
