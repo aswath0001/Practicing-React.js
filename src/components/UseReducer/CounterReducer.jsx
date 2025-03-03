@@ -9,10 +9,10 @@ function CounterReducer (state,action){
             return{count:state.count-1}
      
         case 'incrementByAmount':
-            return{count:state.count + action.payLoad}
+            return{count:state.count + action.payload}
 
             case 'decrementByAmount':
-            return{count:state.count - action.payLoad}
+            return{count:state.count - action.payload}
      default:
         return state;
     }
