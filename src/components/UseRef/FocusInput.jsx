@@ -10,7 +10,7 @@ const FocusInput = () => {
 
   return (
     <div>
-       <input type = 'text' ref={Input}/>
+       <input type = 'text' ref={Input} placeholder="click to focus"/>
        <button onClick={() => HandleClick()}>Focus!</button>
     </div>
   )

@@ -43,8 +43,9 @@ import UseContext2 from './components/UseContext/UseContext2';
 import UserProfile from './components/ContextApi/UserProfile';
 import UseReducer from './components/UseReducer/UseReducer';
 import Counter from './components/UseReducer/Counter';
-import UseRef1 from './components/UseRef/UseRef1';*/}
-import FocusInput from './components/UseRef/FocusInput';
+import UseRef1 from './components/UseRef/UseRef1';
+import FocusInput from './components/UseRef/FocusInput';*/}
+import Timer from './components/UseRef/Timer';
 
 const App = () => {
    
@@ -99,8 +100,9 @@ const App = () => {
     <UserProfile/>
     <UseReducer/>
     <Counter/>
-    <UseRef1/>*/}
-    <FocusInput/>
+    <UseRef1/>
+    <FocusInput/>*/}
+    <Timer/>
   </section>
   );
 };
