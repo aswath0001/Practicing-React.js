@@ -42,7 +42,7 @@ import Usecontext1 from './components/UseContext/Usecontext1';
 import UseContext2 from './components/UseContext/UseContext2';
 import UserProfile from './components/ContextApi/UserProfile';
 import UseReducer from './components/UseReducer/UseReducer';*/}
-import CounterReducer from './components/UseReducer/CounterReducer';
+import Counter from './components/UseReducer/Counter';
 
 const App = () => {
    
@@ -96,7 +96,7 @@ const App = () => {
      <UseContext2/>
     <UserProfile/>
     <UseReducer/>*/}
-    <CounterReducer/>
+    <Counter/>
   </section>
   );
 };
