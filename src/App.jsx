@@ -44,8 +44,9 @@ import UserProfile from './components/ContextApi/UserProfile';
 import UseReducer from './components/UseReducer/UseReducer';
 import Counter from './components/UseReducer/Counter';
 import UseRef1 from './components/UseRef/UseRef1';
-import FocusInput from './components/UseRef/FocusInput';*/}
-import Timer from './components/UseRef/Timer';
+import FocusInput from './components/UseRef/FocusInput';
+import Timer from './components/UseRef/Timer';*/}
+import UseFetch from './components/Custom Hooks/UseFetch';
 
 const App = () => {
    
@@ -101,8 +102,9 @@ const App = () => {
     <UseReducer/>
     <Counter/>
     <UseRef1/>
-    <FocusInput/>*/}
-    <Timer/>
+    <FocusInput/>
+    <Timer/>*/}
+    <UseFetch/>
   </section>
   );
 };
